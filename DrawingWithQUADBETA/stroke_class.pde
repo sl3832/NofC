@@ -8,7 +8,8 @@ class Stroke {
 
   void display() {
     noFill();
-    strokeWeight(2);
+       strokeWeight(30 * tablet.getPressure());
+   // strokeWeight(2);
     stroke(36, 117, 170);
     beginShape();
     for (int i = 0; i<circles.size()-1; i++) {

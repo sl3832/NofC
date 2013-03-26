@@ -15,11 +15,8 @@ class Rect {
 
   PVector display() {
      stroke(random(255),180, 180, lifespan);
-    //stroke(229, 16, 80, lifespan);
- //   strokeWeight(2);
     return location;
-    //rect(location.x,location.y,mass*2,mass*2);
-  
+
   }
   
     void update(){
